@@ -39,6 +39,7 @@ modules:
     - mscore-fonts-all
     - google-noto-sans-khmer-fonts
     - khmer-os-fonts-all
+    - ibus-m17n
   - type: systemd
     system:
       enabled:
