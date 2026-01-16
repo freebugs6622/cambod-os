@@ -49,6 +49,7 @@ modules:
     - xorg-x11-font-utils
     - fontconfig
     - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+    - https://fr2.rpmfind.net/linux/fedora/linux/development/rawhide/Everything/x86_64/os/Packages/k/khmer-os-muol-fonts-5.0-46.fc43.noarch.rpm
   - type: systemd
     system:
       enabled:
