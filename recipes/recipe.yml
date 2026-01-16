@@ -16,6 +16,23 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+  - type: shell 
+    scripts:
+      - |
+        # 1. Create the dconf profile if it doesn't exist
+        mkdir -p /etc/dconf/profile
+        echo -e "user-db:user\nsystem-db:local" > /etc/dconf/profile/user
+
+        # 2. Create the system-wide default keyboard settings
+        mkdir -p /etc/dconf/db/local.d
+        cat <<EOF > /etc/dconf/db/local.d/01-multi-keyboard
+        [org/gnome/desktop/input-sources]
+        sources=[('xkb', 'us'), ('xkb', 'kh')]
+        mru-sources=[('xkb', 'us'), ('xkb', 'kh')]
+        EOF
+
+        # 3. Update the dconf binary database
+        dconf update
   - type: dnf
     repos:
       copr:
