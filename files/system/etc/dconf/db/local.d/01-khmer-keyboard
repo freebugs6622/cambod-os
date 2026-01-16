@@ -1,0 +1,7 @@
+[org/gnome/desktop/input-sources]
+# This list defines the available layouts. 
+# 'xkb' indicates a standard XKB layout, 'kh' is the code for Khmer.
+sources=[('xkb', 'us'), ('xkb', 'kh')]
+
+# Optional: Set the Most Recently Used (MRU) order
+mru-sources=[('xkb', 'us'), ('xkb', 'kh')]
